@@ -8,7 +8,6 @@ import 'screens/blog_list_screen.dart';
 void main() async {
   // Initialize hive for graphql_flutter
   await initHiveForFlutter();
-  
   runApp(const MainApp());
 }
 
